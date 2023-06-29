@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body{
+    min-height: 100vh;
+}
+.msgbox{
+    width: 300px;
+    height: auto;
+    background-color: #333;
+    border-radius: 8px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.offline .msgbox{
+    animation: offline 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes offline {
+    0% {bottom: -100px;}
+    60% {bottom: 20px;}
+    100% {bottom: 20px;}
+}
+.online .msgbox{
+    animation: online 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes online {
+    0% {bottom: 20px;}
+    40% {bottom: 20px;}
+    100% {bottom: -100px;}
+}
