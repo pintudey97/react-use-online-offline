@@ -8,8 +8,7 @@ Repo Link `https://github.com/pintudey97/react-use-online-offline.git`
 
 ## Code
 
-`import React from "react";
-import { ReactOnlineOffline } from './ReactOnlineOffline';
+`import { ReactOnlineOffline } from './ReactOnlineOffline';
 const UseOnlineOffline=()=>{
 
   const { isOnline } = ReactOnlineOffline();
