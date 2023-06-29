@@ -15,4 +15,4 @@ Repo Link `https://github.com/pintudey97/react-use-online-offline.git`
         <div className="msgbox">{isOnline===true? 'You are online':'You are offline'}</div><br />
       </React.Fragment><br />
     );
-  }```
+  }
