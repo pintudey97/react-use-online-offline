@@ -12,9 +12,9 @@ const UseOnlineOffline=()=>{
 
   const { isOnline } = ReactOnlineOffline();
 
-  return (
-    <React.Fragment>
-      <div className="msgbox">{isOnline===true? 'You are online':'You are offline'}</div>
-    </React.Fragment>
+  return (<br />
+    <React.Fragment><br />
+      <div className="msgbox">{isOnline===true? 'You are online':'You are offline'}</div><br />
+    </React.Fragment><br />
   );
 }
