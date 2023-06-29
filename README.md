@@ -15,7 +15,7 @@ import { ReactOnlineOffline } from './ReactOnlineOffline';
 
     return (
       <React.Fragment>
-        <div className="msgbox">{isOnline===true? 'You are online':'You are offline'}</div><br />
+        <div className="msgbox">{isOnline===true? 'You are online':'You are offline'}</div>
       </React.Fragment>
     );
   }
