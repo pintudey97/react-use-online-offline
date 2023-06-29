@@ -7,7 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Repo Link `https://github.com/pintudey97/react-use-online-offline.git`
 
 ## Code
-`import { ReactOnlineOffline } from './ReactOnlineOffline';<br />const UseOnlineOffline=()=>{<br /1>const { isOnline } = ReactOnlineOffline();`
+`import { ReactOnlineOffline } from './ReactOnlineOffline';
+const UseOnlineOffline=()=>{<br /1>const { isOnline } = ReactOnlineOffline();`
 
   return (<br />
     <React.Fragment><br />
