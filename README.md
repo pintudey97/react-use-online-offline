@@ -20,3 +20,8 @@ import { ReactOnlineOffline } from './ReactOnlineOffline';
     );
   }
 ```
+
+Add `body` id in `public/index.html`
+```html
+<body id="body">
+```
