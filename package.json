@@ -1,13 +1,5 @@
 {
   "name": "react-online-offline",
-  "description": "react online offline check in our react project",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pintudey97/react-use-online-offline.git"
-  },
-  "keywords": ["reactjs", "internet check", "react offline online", "isOnline", "check status"],
-  "author": "Pintu Dey",
-  "homepage": "https://github.com/pintudey97/react-use-online-offline/blob/main/README.md",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
