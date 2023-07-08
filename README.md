@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Repo Link `https://github.com/pintudey97/react-use-online-offline.git`
 
+## Install
+```javascript
+npm i ract-use-online-offline
+```
+
 ## Code
 ```javascript
 import { ReactOnlineOffline } from './ReactOnlineOffline';
