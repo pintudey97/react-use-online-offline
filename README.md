@@ -13,8 +13,8 @@ npm i ract-use-online-offline
 
 ## Code
 ```javascript
-import { ReactOnlineOffline } from './ReactOnlineOffline';
-import 'ract-use-online-offline/src/style.css';
+import { ReactOnlineOffline } from 'react-use-online-offline';
+import 'react-use-online-offline/dist/style.css';
 
   const UseOnlineOffline=()=>{
   const { isOnline } = ReactOnlineOffline();
@@ -30,4 +30,12 @@ import 'ract-use-online-offline/src/style.css';
 Add `body` id in `public/index.html`
 ```html
 <body id="body">
+```
+
+If need black and white `grayscale` when offline add this css in your project
+```css
+.offline{
+  filter: grayscale(100%);
+  overflow:hidden;
+}
 ```
