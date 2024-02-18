@@ -17,6 +17,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
+.offline{ height: 100vh; pointer-events: none; }
 .offline .msgbox{
     animation: offline 2s;
     animation-fill-mode: forwards;
